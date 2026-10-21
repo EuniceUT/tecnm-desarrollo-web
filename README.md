@@ -79,3 +79,9 @@ Repositorio oficial y entorno de laboratorio interactivo para el curso de **Desa
 ---
 **Docente Titular:** MCC. Iván Márquez Larios (`ijmarquezl`)  
 **Tecnológico Nacional de México — Campus Cancún**
+
+## Datos: estudiante
+
+Nombre: Eunice Esmeralda Uitzil Tuz
+Matrícula: 23531107
+Track: Desarrollo Web
