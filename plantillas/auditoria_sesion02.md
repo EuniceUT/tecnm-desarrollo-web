@@ -43,8 +43,6 @@ Los datos deben almacenarse en memoria y devolver los códigos HTTP adecuados.]
 
 ## 3. Código Devuelto por el Modelo
 ```python
-# Código devuelto por el LLM
-```
 %%writefile app.py
 from fastapi import FastAPI, HTTPException, Response
 from pydantic import BaseModel
@@ -116,6 +114,9 @@ def eliminar_libro(id: int):
             return Response(status_code=204)
 
     raise HTTPException(status_code=404, detail="Libro no encontrado")
+
+```
+
 ---
 
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
