@@ -2,8 +2,8 @@
 **Materia:** Desarrollo de Aplicaciones Web (DAB-2201)  
 **Tema:** Headers, Content-Type y Negociación de Contenido  
 **Docente Titular:** MCC. Iván Márquez Larios (`ijmarquezl`)  
-**Estudiante:** [Nombre Completo]  
-**Matrícula:** [No. de Control]  
+**Estudiante:** [Eunice Esmeralda Uitzil Tuz]  
+**Matrícula:** [23531107]  
 **Track:** [ Python/FastAPI | PHP 8+ ]  
 
 ---
