@@ -23,21 +23,15 @@ en un router para mantener el código más organizado.
 ### 2.1 Matriz de Especificación Formal (Contrato OpenAPI / DTO)
 | Elemento C-R-E-O | Definición Técnica |
 | :--- | :--- |
-| **Contexto (C)** | Aplicación desarrollada con FastAPI en Google Colab. 
-Se debe usar middleware para agregar encabezados a todas las respuestas. |
-| **Rol (R)** | Actuar como desarrollador backend encargado de implementar 
-trazabilidad y medición de tiempo en las peticiones HTTP. |
-| **Especificación (E)** | Crear un endpoint GET /api/libros que responda 200. 
-Todas las respuestas deben incluir X-Process-Time y X-Request-ID. 
-Si el cliente envía X-Request-ID, se conserva. También debe funcionar en errores 404. |
-| **Output (O)** | Respuestas JSON con encabezados de tiempo y trazabilidad incluidos 
-automáticamente mediante middleware. |
+| **Contexto (C)** | Aplicación desarrollada con FastAPI en Google Colab. Se debe usar middleware para agregar encabezados a todas las respuestas. |
+| **Rol (R)** | Actuar como desarrollador backend encargado de implementar trazabilidad y medición de tiempo en las peticiones HTTP. |
+| **Especificación (E)** | Crear un endpoint GET /api/libros que responda 200. Todas las respuestas deben incluir X-Process-Time y X-Request-ID. Si el cliente envía X-Request-ID, se conserva. También debe funcionar en errores 404. |
+| **Output (O)** | Respuestas JSON con encabezados de tiempo y trazabilidad incluidos automáticamente mediante middleware. |
 
 ### 2.2 Prompt Estructurado
 ```text
 [Actúa como desarrollador backend experto en FastAPI.
-
-Crea una API RESTful para el primer hito del proyecto utilizando APIRouter y modelos Pydantic. 
+Crea una API RESTful para el primer hito del proyecto utilizando APIRouter y modelos Pydantic.
 La aplicación debe validar los datos de entrada, generar automáticamente la documentación OpenAPI, 
 responder en formato JSON y utilizar códigos HTTP adecuados (200, 201, 400 y 422). 
 El código debe estar organizado, ser modular y evitar errores internos del servidor (500).]
