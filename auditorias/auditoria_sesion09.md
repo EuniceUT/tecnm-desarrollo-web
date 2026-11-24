@@ -75,6 +75,23 @@ async def obtener_libros():
 ```
 
 ---
+## Evidencia Verificador
+
+==============================================================================
+
+VERIFICACIÓN DEL RESULTADO · 3 casos · app.py
+
+==============================================================================
+
+✅ 01. Una respuesta correcta trae tiempo y traza
+
+✅ 02. El X-Request-ID del cliente se conserva
+
+✅ 03. El middleware también cubre los 404
+
+------------------------------------------------------------------------------
+
+RESULTADO: 3/3 casos correctos. ¡Resultado logrado!
 
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Suite integral de 10 pruebas HTTP destructivas
