@@ -146,6 +146,7 @@ VERIFICACIÓN DEL RESULTADO · 8 casos · app.py
 
 RESULTADO: 8/8 casos correctos. ¡Resultado logrado!
 
+
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas de métodos no permitidos (HTTP 405)
 
