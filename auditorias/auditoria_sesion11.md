@@ -128,6 +128,18 @@ RESULTADO: 4/4 casos correctos. ¡Resultado logrado!
 
 ### 2
 
+✅ Existe la capa de router
+
+✅ La app incluye el router
+
+✅ Existe la capa de servicio
+
+✅ Existe la capa de repositorio
+
+------------------------------------------------------------------------------
+
+RESULTADO: 4/4 comprobaciones correctas. ¡Resultado logrado!
+
 
 
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
