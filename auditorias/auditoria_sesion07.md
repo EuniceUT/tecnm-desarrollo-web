@@ -77,8 +77,11 @@ VERIFICACIÓN DEL RESULTADO · 4 casos · app.py
 ==============================================================================
 
 ✅ 01. OpenAPI responde con metadatos
+
 ✅ 02. Swagger UI está disponible
+
 ✅ 03. ReDoc está disponible
+
 ✅ 04. El endpoint documentado responde
 
 ------------------------------------------------------------------------------
