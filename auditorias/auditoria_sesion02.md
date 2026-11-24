@@ -118,6 +118,9 @@ def eliminar_libro(id: int):
 ```
 
 ---
+## Evidencia Verificador
+
+
 
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas de métodos no permitidos (HTTP 405)
