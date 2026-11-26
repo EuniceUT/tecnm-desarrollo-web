@@ -108,6 +108,37 @@ def obtener_libros(
 ```
 
 ---
+## Evidencia Verificador
+### 1
+
+==============================================================================
+
+VERIFICACIÓN DEL RESULTADO · 4 casos · app.py
+
+==============================================================================
+
+✅ 01. El diagnóstico revela el repositorio inyectado
+
+✅ 02. El endpoint inyectado crea un libro
+
+✅ 03. El repositorio conserva el estado
+
+✅ 04. La validación sigue en el borde
+
+------------------------------------------------------------------------------
+
+RESULTADO: 4/4 casos correctos. ¡Resultado logrado!
+
+### 2
+
+✅ El endpoint usa Depends
+
+✅ Existe la función de inyección
+
+------------------------------------------------------------------------------
+
+RESULTADO: 2/2 comprobaciones correctas. ¡Resultado logrado!
+
 
 ## 4. Fase 3: El Auditor (Resultados del Test Harness HTTP)
 *Pruebas ejecutadas:* Pruebas de ciclo de vida de dependencias por request
